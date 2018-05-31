@@ -101,4 +101,4 @@ Responsive Website Home Page built In HTML, CSS, JavaScript, Bootstrap, Jquery.
 
 ## Authors
 
-Karsimran Arora 
+Ajay Randhawa 
