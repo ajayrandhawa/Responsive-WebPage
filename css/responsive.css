@@ -1,0 +1,308 @@
+/* Media Queries
+-------------------------------------------------------------- */
+@media only screen and (min-width: 1367px) and (max-width: 1900px) {
+  .header-style4 aside.armentum-info.armentum-info-phone {
+    display: none;
+  }
+}
+
+/* Smaller than standard 1200 */
+@media only screen and (max-width: 1199px) {
+  .switcher-container {
+    top: 115px;
+  }
+  .top.style2 .flat-information {
+    padding-left: 5px;
+  }
+  .flat-information.style2 li {
+    margin-right: 5px;
+  }
+  .wrap-armentum-info-header .armentum-info-section {
+    margin: 0 0 0 15px;
+  }
+  .armentum-info-header-style2
+    .wrap-armentum-info-header
+    .armentum-info-section {
+    margin: 0 0 0 0px;
+  }
+  #mainnav ul.submenu.right {
+    right: 0;
+    left: auto;
+  }
+  #mainnav > ul > li > a,
+  .armentum-ex-nav li a {
+    padding: 0 21px 0px 21px;
+  }
+}
+
+/* Smaller than standard 992 */
+@media only screen and (max-width: 991px) {
+  .armentum-btn-menu {
+    display: block;
+  }
+  .mainnav,
+  .top .wrap-top.reponsive-none,
+  .switcher-container,
+  .armentum-info.reponsive-none,
+  .armentum-info-header-style2 .wrap-armentum-info-header,
+  .header-style4 .menu.armentum-ex-nav.style2 {
+    display: none;
+  }
+  .tparrows {
+    display: none !important;
+  }
+  #armentum-mobile-nav .menu {
+    overflow-y: auto;
+    height: 40vh;
+  }
+  .header.downscrolled ~ #armentum-mobile-nav,
+  .header.header-absolute.downscrolled ~ #armentum-mobile-nav {
+    position: fixed;
+    top: 60px;
+  }
+  .header.header-absolute ~ #armentum-mobile-nav {
+    top: 61px;
+  }
+  .go-top {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .header .logo {
+    margin: 30px 0 0 0;
+  }
+  .menu.armentum-ex-nav {
+    padding-left: 0;
+    float: left;
+  }
+  .top .menu.armentum-ex-nav {
+    padding-left: 0;
+    margin: 0px 0px 0px 0px;
+  }
+  .wrap-armentum-info-header {
+    padding: 30px 0px 25px;
+  }
+  .header.armentum-info-header-style2 .logo {
+    margin: 15px 0 10px 0px;
+  }
+  .wrap-armentum-info-header .armentum-info-section {
+    margin: 0px;
+    width: 38%;
+  }
+  .wrap-armentum-info-header .armentum-info-section:first-of-type {
+    text-align: center;
+  }
+
+  .btn-click{
+	border-left: none;
+	padding-left:0px;
+}
+  .shopping-cart .armentum-shoping-box,
+  .armentum-search {
+    left: 0;
+  }
+  .header .logo {
+    text-align: center;
+  }
+  .mobile-center {
+    text-align: center;
+  }
+  .flat-language {
+    width: 100%;
+  }
+  .flat-top {
+    float: none;
+    padding: 15px 0 0 0;
+  }
+  .wrap-top {
+    text-align: center;
+  }
+  .top {
+    padding: 15px 0px;
+  }
+  .footer-top-section-left {
+    width: 100%;
+    margin: 0;
+    padding: 0 !important;
+    float: left;
+    text-align: center !important;
+  }
+  .footer-top-section-right {
+    width: 100%;
+    margin: 0;
+    padding: 0 !important;
+    float: left;
+    text-align: center !important;
+    margin: 20px 0 0 0;
+  }
+  .footer-top-section-wrapper {
+    padding: 30px 0;
+  }
+  .footer-top-section-wrapper
+    .footer-top-section-left
+    .footer-top-section-focus {
+    line-height: 40px;
+  }
+}
+
+  .short-msg-tab ul li {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 3px 0;
+  }
+  .short-msg-tab ul li a {
+    display: block;
+    width: 100%;
+  }
+  .owl-nav {
+    display: none;
+  }
+}
+
+/* Mobile Landscape Size */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .comment-form .wrap-input .add-review {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #armentum-mobile-nav .menu {
+    height: 62vh;
+  }
+  .wrap-armentum-info-header .armentum-info-section {
+    margin: 0px;
+    width: 50%;
+    text-align: center;
+  }
+}
+
+/* Mobile Portrait Size */
+@media only screen and (max-width: 479px) {
+  .wrap-column .flat-column3,
+  .wrap-column2 .flat-column2,
+  .wrap-form.style2 span.flat-input,
+  .top.style2 .flat-language,
+  .project-dynamic .data-effect li.width50,
+  .project-dynamic .data-effect li,
+  .countdown .square,
+  .item .featured-item a img,
+  .flat-tabs ul.menu-tab li,
+  .about-counter .flat-counter,
+  .about-counter .flat-counter:nth-child(2),
+  .about-counter .flat-counter:nth-child(3),
+  .wrap-product .product,
+  .list-author .info-author .featured-author img,
+  .product-single .flat-tabs ul.menu-tab li,
+  .comment-form .wrap-input .add-review {
+    width: 100%;
+  }
+  .flat-language {
+    width: 100%;
+  }
+  .single-post .project-info ul li span.name {
+    width: 40%;
+  }
+  .top.style3 .flat-language {
+    width: 35%;
+  }
+  .page-commingsoon .title-section.sub .title {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .bottom {
+    padding-bottom: 15px;
+  }
+  .header .logo {
+    margin: 20px 0 0 0;
+  }
+  .wrap-armentum-info-header {
+    padding: 25px 0px 5px;
+  }
+  .shopping-cart .armentum-shoping-box {
+    left: -35px;
+  }
+  .wrap-armentum-info-header .armentum-info-section {
+    margin: 0 0 20px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .email {
+    padding: 0 0 10px 0;
+  }
+}
+@media (max-width: 320px) {
+  #armentum-mobile-nav .menu {
+    height: 78vh;
+  }
+  .flat-language {
+    width: 100%;
+  }
+  .single-post .project-info ul li span.name {
+    width: auto;
+  }
+  .wrap-testimonial #testimonial-carousel {
+    padding: 0px 10px;
+    top: 300px;
+  }
+  .armentum-search {
+    width: 276px;
+  }
+  .shopping-cart .armentum-shoping-box {
+    left: -54px;
+    width: 280px;
+  }
+  .cart .quantity {
+    margin-bottom: 20px;
+  }
+  .fancybox::after {
+    margin-right: -7px;
+  }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+  .sm-padding {
+    padding: 15px;
+  }
+  .main_slider .main_slide {
+    height: 500px;
+  }
+}
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+  .banner_content h2,
+  h1 {
+    font-size: 18px !important;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  p br {
+    display: none;
+  }
+  .padding {
+    padding: 60px 0;
+  }
+  .xs-padding {
+    padding: 15px;
+  }
+  .js .slicknav_menu {
+    display: block;
+  }
+  .main_slider .main_slide {
+    height: 400px;
+  }
+}
+/* ---- End of max-width 767px CSS ---- */
+
+/* ---- Start of max-width 520px CSS ---- */
+@media all and (max-width: 520px) {
+  .col-xs-6 {
+    float: none;
+    width: 100%;
+  }
+}
